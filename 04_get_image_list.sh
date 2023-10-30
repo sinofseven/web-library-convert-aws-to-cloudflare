@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 set -xeuo pipefail
 
-find raw -type f > $0.txt
+find raw -type f | sort > $0.txt
 

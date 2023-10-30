@@ -259,3 +259,5 @@ fabric.properties
 /converted/
 *.txt
 *.json
+tmp.sh
+tmp.py
