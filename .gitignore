@@ -257,3 +257,5 @@ fabric.properties
 # custom
 /raw/
 /converted/
+*.txt
+*.json
