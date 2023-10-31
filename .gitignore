@@ -262,4 +262,4 @@ fabric.properties
 *.zip
 tmp.sh
 tmp.py
-
+!07_titles.json
