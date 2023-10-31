@@ -263,3 +263,4 @@ fabric.properties
 tmp.sh
 tmp.py
 !07_titles.json
+.envrc

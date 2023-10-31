@@ -1,4 +1,4 @@
 export AWS_PROFILE=private
 export DIR_SERIES=wear_my_princess_shoes
-export PARALLEL_COUNT=2
+export PARALLEL_COUNT=12
 export TITLE_SERIES="俺の姫靴を履いてくれ"
