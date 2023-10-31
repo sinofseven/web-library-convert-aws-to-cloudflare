@@ -1,6 +1,6 @@
-import boto3
 from os import getenv
 
+import boto3
 
 title = getenv("TITLE_SERIES")
 with open(f"{title}.zip", "rb") as f:
@@ -8,7 +8,6 @@ with open(f"{title}.zip", "rb") as f:
         Bucket="raw.backup.library.luciferous.link",
         Key=f"{title}.zip",
         Body=f,
-        StorageClass="GLACIER"
+        StorageClass="GLACIER",
     )
 print(resp)
-

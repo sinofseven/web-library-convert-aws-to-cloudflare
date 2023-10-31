@@ -20,4 +20,3 @@ for path in dir_names:
 
 with open(f"{basename(argv[0])}.txt", "w") as f:
     f.write("\n".join(result))
-
