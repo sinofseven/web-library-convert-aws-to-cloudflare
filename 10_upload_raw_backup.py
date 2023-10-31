@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+import boto3
 from os import getenv
 
 import boto3
