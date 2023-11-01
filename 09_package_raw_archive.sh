@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -xeuo pipefail
 
-cp ./08_create_raw_shelf.py.json raw/shelf.json
-mv raw "$TITLE_SERIES"
+cp -r raw/ "$TITLE_SERIES"
+cp ./08_create_raw_shelf.py.json "$TITLE_SERIES/shelf.json"
 zip -r "$TITLE_SERIES.zip" "$TITLE_SERIES"
-mv "$TITLE_SERIES" raw
+rm -rf "$TITLE_SERIES"
