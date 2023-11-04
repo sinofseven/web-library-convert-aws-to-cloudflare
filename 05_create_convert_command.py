@@ -15,7 +15,7 @@ for path in files:
     base = splitext(path[4:])[0]
     output = f"converted/{base}.avif"
     dir_names.add(dirname(output))
-    result.append(f"cavif -f -s 1 -Q 75 -o {output} {path}")
+    result.append(f"cavif -f -s 2 -Q 75 -o {output} {path}")
 
 for path in dir_names:
     makedirs(path, exist_ok=True)
